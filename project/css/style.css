@@ -1,0 +1,251 @@
+.head1{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    background-color:white;
+}
+
+
+head .logo{
+    text-align: center;
+}
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+    font-size: 20px;
+}
+
+.a1,.a2,.a3{
+    background-color: green;
+float: left;
+font-size: 20px;
+
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.vegcont{
+    float: none;
+    display: none;
+    position: absolute;
+}
+
+.vegcont a{
+    float: none;
+    display: block;
+    background-color: white;
+}
+
+.dropdown:hover .vegcont{
+    display: block;
+}
+
+
+body{
+    background-color:white;
+}
+
+.recipes
+{
+    background-color: rgb(236, 228, 236);
+}
+
+body div.body1{
+    
+    background-color:tomato;
+    padding-top:5px;
+    
+}
+
+.head1 .logout{
+    background-color: rgb(235, 62, 76);
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    height: 30px;
+}
+
+.description,.ingredients,.instructions{
+    border:2px solid grey;
+    margin:10px 5px 5px 5px;
+}
+
+h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+.desc{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-stretch: condensed;
+}
+
+span{
+    font-size: 20px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.one{
+    border: 2px solid black;
+    padding-bottom: 50px;
+    margin-left: 20px;
+    padding-left: 50px;
+    float:left;
+    width:100%;
+    margin:20px 10px 10px 0px;
+    height:fit-content;
+
+}
+
+.space{
+    background-color: white;
+}
+
+.two{
+width:100%;
+height: fit-content;
+padding-top: 10px;
+padding-bottom: 20px;
+float: left;
+padding-left: 60px;
+margin:20px 10px 10px 0px;
+border: 2px solid black;
+}
+
+.two h2{
+    padding-left: 1px;
+    text-align: left;
+    margin-left: 1px;
+}
+
+
+.htr{
+    float:left;
+    height: 800px;
+    width: 48%;
+
+}
+
+.contact{
+    float: left;
+    padding-top: 10px;
+    text-align:left;
+    padding-left: 20px;
+    height: 200px;
+    width: 400px;
+    font-size: 30px;
+    border: 3px solid white;
+    margin-left: 250px;
+}
+
+
+.contact p{
+    text-align: left;
+    float: right;
+    padding-right: 10px;
+    padding-left: 40px;
+    
+}
+
+.home{
+    float: left;
+    width: 600px;
+}
+
+.quick{
+    float:left;
+    height:800px;
+    width:25%;
+    padding-left:300px;
+}
+
+.head2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+
+.head3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+
+.nondesc{
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size:40px;
+    padding-left: 50px;
+}
+
+.quickdescp{
+    padding-left:10px;
+    padding-top: 10px;
+    width: 90%;
+}
+
+.featured{
+    margin-top: 20px;
+    margin-left:30px;
+    margin-bottom: 30px;
+    border: 3px solid rgb(223, 204, 34);
+    height: 800px;
+    width:130%;
+    float:left;  
+    padding:20px 20px 40px 20px; 
+}
+
+
+.featured1{
+    border: 5px solid rgb(223, 204, 34);
+    margin:5px 5px 5px 50px;
+    padding-bottom: 50px;
+    width: 120%;
+    padding-right: 200px;
+    height: fit-content;
+    padding: 20px; 
+}
+
+.featured2{
+    margin:5px 5px 5px 50px;
+    border: 5px solid rgb(223, 204, 34);
+    width: 120%;
+    height: fit-content;
+    padding: 20px; 
+}
+
+.featured p{
+    font-size: 20px;
+    
+}
+
+.topnav a{
+    float: left;
+    color:black;
+    font-size: 20px;
+    padding-right: 10px;
+    text-decoration: none;
+    
+}
+
+.topnav a:hover{
+    background-color: greenyellow;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: black;
+  }

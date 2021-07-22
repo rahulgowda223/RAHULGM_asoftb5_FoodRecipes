@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="css/login.css">
+   <script src="signup.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
+  
+</head>
+<body>
+    <h1><img class="logo" src="images/logo.png"></h1>
+                    <div class="login">
+                        <div class="form">
+                            <form class ="register" name="register1" action="#">
+                        <input type="text" id="fname" name="fname" value="fname" placeholder="enter username" required><br>
+                        
+                        <input type="email" name ="email" value="email" placeholder="enter email" required><br>
+                        
+                        <input type="password" name="password" value="password" placeholder="Password" required><br>
+
+                        <button type="button" onclick="namevalidate(document.register1.fname)">Create</button>
+                         
+                         <p class="message"><a href="#">Already Registered! Click Here to login</p></a>  
+                         <p class="message1">Name should be unique</p> 
+                         <p class="message1">Password should contain lower-case, upper-case,digits with length 6-20 characters</p> 
+                            </form>
+
+
+
+                        <form class="login1" name="login2" action="#">
+                            <input type="text" id="name1"  value="name" name="name1"  required/>
+                            <input type="password" value="password" />
+                            <button type="button" onclick="namevalidate(document.login2.name1)">Login</a></button>
+                            <p class="message"><a href='#'>To Register Click Here.</p></a>
+                        </form>
+                        </div>
+                </div>
+                
+            <script>
+                    $('.message a').click(function(){
+                        $('form').animate({height:"toggle",opacity:"toggle"},"slow");
+                    });
+                    </script>
+                         
+        </body>
+
+</html>
